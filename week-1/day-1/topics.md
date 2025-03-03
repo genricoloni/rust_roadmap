@@ -2,12 +2,15 @@
 
 Topics:
 
-- Installation
-- Creating a new project
-- Cargo
-- Resources
-- Exercises
-- Key concepts
+- [Day 1 - Rust Roadmap](#day-1---rust-roadmap)
+  - [Installation](#installation)
+  - [Creating a new project](#creating-a-new-project)
+  - [Cargo](#cargo)
+    - [Cargo.toml](#cargotoml)
+    - [Building for release](#building-for-release)
+  - [Resources](#resources)
+  - [Exercises](#exercises)
+  - [Key concepts](#key-concepts)
 
 ## Installation
 
@@ -54,10 +57,11 @@ From the [Rust Programming Language](https://doc.rust-lang.org/book/):
 
 - 1.1: Installation
 - 1.2: Hello, world!
+- 1.3: Hello, Cargo!
 
 ## Exercises
 
-No actual exercises are provided in this lesson. However, if you don't have any experience with Rust, you can try to write a simple "Hello, world!" program to get started.
+No actual exercises are provided in this lesson. However, if you don't have any experience with Rust, you can try to write a simple "Hello, world!" program to get started and build confidence with the language and the tools.
 
 ```Rust
 fn main() {
@@ -70,4 +74,5 @@ fn main() {
 - Rust is a compiled language
 - Rust is designed for performance and safety
 - Existence of `MACROs` in Rust, recognizable by the `!` at the end, which don't always follow the same rules as functions
-- 
+- Cargo is the package manager for Rust, used to manage projects and dependencies
+- `Cargo.toml` contains the project configuration
