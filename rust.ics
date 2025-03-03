@@ -1,0 +1,368 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OpenAI//Rust Roadmap//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250303
+DTSTAMP:20250226T000000Z
+DTSTART:20250303T093000
+DTEND:20250303T113000
+SUMMARY:Settimana 1 - Giorno 1
+DESCRIPTION:Argomenti: Installazione Rust e primo progetto (Cap. 1 Rust Book). Esercizi:\n1) Facile - Hello World\n2) Medio - Lettura input e conversione\n3) Avanzato - Funzione che prende in input nome/eta
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250304
+DTSTAMP:20250226T000000Z
+DTSTART:20250304T150000
+DTEND:20250304T170000
+SUMMARY:Settimana 1 - Giorno 2
+DESCRIPTION:Argomenti: Cargo build/run/test; variabili, mutabilita, shadowing.\nEsercizi:\n1) Facile - Programma che chiede nome e saluta\n2) Medio - Chiede nome ed età e gestisce errori input\n3) Avanzato - Funzione con ownership/riferimenti
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250305
+DTSTAMP:20250226T000000Z
+DTSTART:20250305T093000
+DTEND:20250305T113000
+SUMMARY:Settimana 1 - Giorno 3
+DESCRIPTION:Argomenti: Tipi di dato (i32,u32,f64,bool,char), array, tuple, controllo di flusso.\nEsercizi:\n1) Facile - Stampa array in un for\n2) Medio - Calcolo media di un array\n3) Avanzato - Min, max, media con Option o Result
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250306
+DTSTAMP:20250226T000000Z
+DTSTART:20250306T093000
+DTEND:20250306T113000
+SUMMARY:Settimana 1 - Giorno 4
+DESCRIPTION:Argomenti: Funzioni (fn), scope, prime letture (Cap.2-3 Rust Book).\nEsercizi:\n1) Facile - Funzione quadrato(x)\n2) Medio - Funzione fattoriale\n3) Avanzato - Mini-menu per scegliere funzioni da eseguire
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250307
+DTSTAMP:20250226T000000Z
+DTSTART:20250307T093000
+DTEND:20250307T113000
+SUMMARY:Settimana 1 - Giorno 5
+DESCRIPTION:Riepilogo Settimana 1.\nEsercizi:\n1) Facile - Ordinamento di 3 numeri\n2) Medio - Calcolatrice basilare (+ - * /)\n3) Avanzato - Menu con lista in un Vec e operazioni di aggiunta, rimozione, stampa
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250310
+DTSTAMP:20250226T000000Z
+DTSTART:20250310T093000
+DTEND:20250310T113000
+SUMMARY:Settimana 2 - Giorno 1
+DESCRIPTION:Argomenti: Ownership e Borrowing (introduzione). Lettura Cap.4.\nEsercizi:\n1) Facile - Funzione che prende proprietà di una String e la modifica\n2) Medio - Funzione che prende riferimento immutabile e misura lunghezza\n3) Avanzato - Funzione che prende riferimento mutabile e modifica la String
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250311
+DTSTAMP:20250226T000000Z
+DTSTART:20250311T150000
+DTEND:20250311T170000
+SUMMARY:Settimana 2 - Giorno 2
+DESCRIPTION:Argomenti: Borrowing approfondito, slicing, passaggi per riferimento.\nEsercizi:\n1) Facile - Somma slice &[i32]\n2) Medio - Moltiplica slice mut &[i32]\n3) Avanzato - Programma con Vec dinamico e funzioni di lettura/scrittura slice
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250312
+DTSTAMP:20250226T000000Z
+DTSTART:20250312T093000
+DTEND:20250312T113000
+SUMMARY:Settimana 2 - Giorno 3
+DESCRIPTION:Argomenti: Lifetimes, funzioni con lifetime.\nEsercizi:\n1) Facile - prendi_primo_carattere(s)\n2) Medio - piu_lunga(a,b)\n3) Avanzato - Struct che contiene un riferimento e restituisce una slice interna
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250313
+DTSTAMP:20250226T000000Z
+DTSTART:20250313T093000
+DTEND:20250313T113000
+SUMMARY:Settimana 2 - Giorno 4
+DESCRIPTION:Argomenti: Slice di stringa, slice di array, pattern matching base (match).\nEsercizi:\n1) Facile - Verificare se il primo carattere di una stringa è vocale o consonante\n2) Medio - Funzione tipo_primo_carattere(s)\n3) Avanzato - Calcolo somma in un while let Some(x)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250314
+DTSTAMP:20250226T000000Z
+DTSTART:20250314T093000
+DTEND:20250314T113000
+SUMMARY:Settimana 2 - Giorno 5
+DESCRIPTION:Riepilogo Settimana 2.\nEsercizi:\n1) Facile - Lista di todo in un Vec, funzioni per aggiungere/stampare\n2) Medio - Rimuovere un task specifico\n3) Avanzato - Piccola app a menu con operazioni su tasks
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250317
+DTSTAMP:20250226T000000Z
+DTSTART:20250317T093000
+DTEND:20250317T113000
+SUMMARY:Settimana 3 - Giorno 1
+DESCRIPTION:Argomenti: Struct, definizione e metodi. Lettura Cap.5.\nEsercizi:\n1) Facile - struct Rettangolo {larghezza, altezza}\n2) Medio - Metodo area()\n3) Avanzato - Metodo puo_contenere(altro)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250318
+DTSTAMP:20250226T000000Z
+DTSTART:20250318T150000
+DTEND:20250318T170000
+SUMMARY:Settimana 3 - Giorno 2
+DESCRIPTION:Argomenti: Enum, pattern matching sulle varianti.\nEsercizi:\n1) Facile - enum Seme {Cuori, Quadri, Fiori, Picche}\n2) Medio - enum Valore {Asso, Numero(u8), Jack, ...} + funzione descrivi\n3) Avanzato - struct Carta {seme, valore}, descrivi_carta()
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250319
+DTSTAMP:20250226T000000Z
+DTSTART:20250319T093000
+DTEND:20250319T113000
+SUMMARY:Settimana 3 - Giorno 3
+DESCRIPTION:Argomenti: Option e Result, match, unwrap(), expect().\nEsercizi:\n1) Facile - Funzione che ritorna Option se un numero >10\n2) Medio - Funzione dividi(a,b) -> Result\n3) Avanzato - Simula apri_file(path) -> Result<String, String>
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250320
+DTSTAMP:20250226T000000Z
+DTSTART:20250320T093000
+DTEND:20250320T113000
+SUMMARY:Settimana 3 - Giorno 4
+DESCRIPTION:Argomenti: Pattern matching avanzato (if let, while let, destructuring).\nEsercizi:\n1) Facile - if let Some(n) = numero_opzionale\n2) Medio - while let Some(val) in un vec di Option<i32>\n3) Avanzato - enum Messaggio {Testo(String), Ping, Disconnect} e gestione con match
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250321
+DTSTAMP:20250226T000000Z
+DTSTART:20250321T093000
+DTEND:20250321T113000
+SUMMARY:Settimana 3 - Giorno 5
+DESCRIPTION:Riepilogo Settimana 3.\nEsercizi:\n1) Facile - struct Prenotazione {nome_cliente, posto}\n2) Medio - enum StatoPrenotazione e aggiorna stato\n3) Avanzato - Gestore prenotazioni con Vec<Prenotazione> (aggiunta, conferma, cancellazione)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250324
+DTSTAMP:20250226T000000Z
+DTSTART:20250324T093000
+DTEND:20250324T113000
+SUMMARY:Settimana 4 - Giorno 1
+DESCRIPTION:Argomenti: Generics <T> in funzioni e struct. Lettura Cap.10 (prima parte).\nEsercizi:\n1) Facile - restituisci_primo(a, b) -> T\n2) Medio - massimo<T: PartialOrd + Copy>(slice)\n3) Avanzato - struct Coppia<T,U> con logica su PartialOrd
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250325
+DTSTAMP:20250226T000000Z
+DTSTART:20250325T150000
+DTEND:20250325T170000
+SUMMARY:Settimana 4 - Giorno 2
+DESCRIPTION:Argomenti: Trait, definizione e implementazione, default methods.\nEsercizi:\n1) Facile - trait Saluto, implementato per struct Persona\n2) Medio - trait Calcolabile, implementato da Somma e Prodotto\n3) Avanzato - Metodo default nel trait che usa calcola()
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250326
+DTSTAMP:20250226T000000Z
+DTSTART:20250326T093000
+DTEND:20250326T113000
+SUMMARY:Settimana 4 - Giorno 3
+DESCRIPTION:Argomenti: Trait objects (Box<dyn Trait>), polimorfismo.\nEsercizi:\n1) Facile - trait Descrivibile, implementato da 2 struct, in un Vec<Box<dyn Descrivibile>>\n2) Medio - Aggiungi un terzo struct e inseriscilo nella collection\n3) Avanzato - Funzione stampa_tutti con slice di Box<dyn Descrivibile>
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250327
+DTSTAMP:20250226T000000Z
+DTSTART:20250327T093000
+DTEND:20250327T113000
+SUMMARY:Settimana 4 - Giorno 4
+DESCRIPTION:Argomenti: Error handling avanzato, Result, ? operator.\nEsercizi:\n1) Facile - leggi_numero() -> Result<i32, ParseIntError>\n2) Medio - Usa l’operatore ? per semplificare\n3) Avanzato - leggi_config(path) -> Result<String, Box<dyn Error>> con ? e match finale
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250328
+DTSTAMP:20250226T000000Z
+DTSTART:20250328T093000
+DTEND:20250328T113000
+SUMMARY:Settimana 4 - Giorno 5
+DESCRIPTION:Riepilogo Settimana 4.\nEsercizi:\n1) Facile - trait semplice in un progetto esistente\n2) Medio - funzione generica che trasforma un Vec\n3) Avanzato - trait objects + Result, con calcoli e possibili errori
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250331
+DTSTAMP:20250226T000000Z
+DTSTART:20250331T093000
+DTEND:20250331T113000
+SUMMARY:Settimana 5 - Giorno 1
+DESCRIPTION:Argomenti: Collezioni: Vec, String.\nEsercizi:\n1) Facile - Crea Vec<String> e inserisci 3 elementi\n2) Medio - Funzioni per aggiungere/rimuovere un elemento\n3) Avanzato - Mini menu di gestione Vec<String>
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250401
+DTSTAMP:20250226T000000Z
+DTSTART:20250401T150000
+DTEND:20250401T170000
+SUMMARY:Settimana 5 - Giorno 2
+DESCRIPTION:Argomenti: HashMap (inserimento, rimozione, iterazione).\nEsercizi:\n1) Facile - Dizionario (parola->definizione) con 2-3 coppie\n2) Medio - Funzione aggiungi_parola\n3) Avanzato - Dizionario interattivo con aggiunta, ricerca, rimozione
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250402
+DTSTAMP:20250226T000000Z
+DTSTART:20250402T093000
+DTEND:20250402T113000
+SUMMARY:Settimana 5 - Giorno 3
+DESCRIPTION:Argomenti: Iteratori, map, filter, fold.\nEsercizi:\n1) Facile - Stampa elementi con iter()\n2) Medio - Filtra numeri pari\n3) Avanzato - Somma dei quadrati dei numeri positivi con filter+map+fold
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250403
+DTSTAMP:20250226T000000Z
+DTSTART:20250403T093000
+DTEND:20250403T113000
+SUMMARY:Settimana 5 - Giorno 4
+DESCRIPTION:Argomenti: Closures, cattura variabili, apply_twice.\nEsercizi:\n1) Facile - closure add_one su un Vec\n2) Medio - apply_twice(f, x)\n3) Avanzato - closure che cattura una variabile esterna mut e la modifica
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250404
+DTSTAMP:20250226T000000Z
+DTSTART:20250404T093000
+DTEND:20250404T113000
+SUMMARY:Settimana 5 - Giorno 5
+DESCRIPTION:Riepilogo Settimana 5.\nEsercizi:\n1) Facile - Vec<(nome,voto)> e stampa\n2) Medio - HashMap<(nome->voto)> con ricerca\n3) Avanzato - Calcolo media, min, max con iteratori
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250407
+DTSTAMP:20250226T000000Z
+DTSTART:20250407T093000
+DTEND:20250407T113000
+SUMMARY:Settimana 6 - Giorno 1
+DESCRIPTION:Argomenti: Thread (std::thread::spawn, join). Lettura Cap.16.\nEsercizi:\n1) Facile - Due thread che stampano 5 messaggi\n2) Medio - Thread che stampa numeri 1..5 con nome\n3) Avanzato - Aggiungi sleep e osserva interleaving
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250408
+DTSTAMP:20250226T000000Z
+DTSTART:20250408T150000
+DTEND:20250408T170000
+SUMMARY:Settimana 6 - Giorno 2
+DESCRIPTION:Argomenti: Channel (mpsc::channel), invio/ricezione messaggi.\nEsercizi:\n1) Facile - Un thread invia una stringa, main la riceve\n2) Medio - Invia più messaggi e stampa all'arrivo\n3) Avanzato - Più thread producer con un consumer unico
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250409
+DTSTAMP:20250226T000000Z
+DTSTART:20250409T093000
+DTEND:20250409T113000
+SUMMARY:Settimana 6 - Giorno 3
+DESCRIPTION:Argomenti: Mutex, Arc, risorse condivise.\nEsercizi:\n1) Facile - Arc<Mutex<i32>> per contatore condiviso tra 2 thread\n2) Medio - Aggiungi un terzo thread e conferma il risultato\n3) Avanzato - Simula conto bancario con depositi/prelievi
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250410
+DTSTAMP:20250226T000000Z
+DTSTART:20250410T093000
+DTEND:20250410T113000
+SUMMARY:Settimana 6 - Giorno 4
+DESCRIPTION:Argomenti: Approfondimenti concurrency, chat simulata.\nEsercizi:\n1) Facile - Chat con 1 thread sender e 1 receiver\n2) Medio - Più partecipanti (thread) che inviano al consumer centrale\n3) Avanzato - Meccanismo di risposta consumer->sender
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250411
+DTSTAMP:20250226T000000Z
+DTSTART:20250411T093000
+DTEND:20250411T113000
+SUMMARY:Settimana 6 - Giorno 5
+DESCRIPTION:Riepilogo Settimana 6 (producer-consumer).\nEsercizi:\n1) Facile - 1 producer, 1 consumer, 5 numeri\n2) Medio - 2 producer, 1 consumer\n3) Avanzato - 2 consumer, chiusura corretta al termine
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250414
+DTSTAMP:20250226T000000Z
+DTSTART:20250414T093000
+DTEND:20250414T113000
+SUMMARY:Settimana 7 - Giorno 1
+DESCRIPTION:Argomenti: Macro con macro_rules!.\nEsercizi:\n1) Facile - macro my_print!\n2) Medio - macro che accetta un parametro e stampa\n3) Avanzato - macro che genera funzioni ripetitive
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250415
+DTSTAMP:20250226T000000Z
+DTSTART:20250415T150000
+DTEND:20250415T170000
+SUMMARY:Settimana 7 - Giorno 2
+DESCRIPTION:Argomenti: Macro procedurali (accenno). Lettura Cap.19.\nEsercizi:\n1) Facile - Esempio base (copiato da guida) di macro proc\n2) Medio - Macro derivata #[derive(MyTrait)]\n3) Avanzato - Logica condizionale nella macro
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250416
+DTSTAMP:20250226T000000Z
+DTSTART:20250416T093000
+DTEND:20250416T113000
+SUMMARY:Settimana 7 - Giorno 3
+DESCRIPTION:Argomenti: unsafe, puntatori raw, extern.\nEsercizi:\n1) Facile - Blocchetto unsafe con un puntatore raw\n2) Medio - Puntatore raw a un Box::new(20)\n3) Avanzato - Funzione extern C fittizia
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250417
+DTSTAMP:20250226T000000Z
+DTSTART:20250417T093000
+DTEND:20250417T113000
+SUMMARY:Settimana 7 - Giorno 4
+DESCRIPTION:Argomenti: Smart pointer (Box, Rc, RefCell), lista collegata.\nEsercizi:\n1) Facile - enum Lista {Nodo(i32, Box<Lista>), Vuota}\n2) Medio - Funzione lunghezza()\n3) Avanzato - inserisci_in_testa(self, val) -> Lista
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250418
+DTSTAMP:20250226T000000Z
+DTSTART:20250418T093000
+DTEND:20250418T113000
+SUMMARY:Settimana 7 - Giorno 5
+DESCRIPTION:Riepilogo Settimana 7.\nEsercizi:\n1) Facile - Macro semplice in un tuo progetto\n2) Medio - Rc<RefCell<String>> condiviso\n3) Avanzato - Rimuovi unsafe se possibile o spiega differenze
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250421
+DTSTAMP:20250226T000000Z
+DTSTART:20250421T093000
+DTEND:20250421T113000
+SUMMARY:Settimana 8 - Giorno 1
+DESCRIPTION:Progetto finale - Pianificazione.\nEsercizi:\n1) Facile - Brainstorm 2-3 idee\n2) Medio - Crea repo e README con obiettivi\n3) Avanzato - Stendi file specifiche dettagliate
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250422
+DTSTAMP:20250226T000000Z
+DTSTART:20250422T150000
+DTEND:20250422T170000
+SUMMARY:Settimana 8 - Giorno 2
+DESCRIPTION:Progetto finale - Strutturazione cartelle, moduli.\nEsercizi:\n1) Facile - Crea src/lib.rs, src/main.rs, un modulo base\n2) Medio - Implementa prima funzione complessa in un modulo\n3) Avanzato - Definisci trait/struct usati da tutto il progetto
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250423
+DTSTAMP:20250226T000000Z
+DTSTART:20250423T093000
+DTEND:20250423T113000
+SUMMARY:Settimana 8 - Giorno 3
+DESCRIPTION:Progetto finale - Implementazione iniziale, concurrency se serve.\nEsercizi:\n1) Facile - Lettura di dati da input/file\n2) Medio - Gestione errori con ? e match\n3) Avanzato - Thread dedicato (log, consumer, etc.)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250424
+DTSTAMP:20250226T000000Z
+DTSTART:20250424T093000
+DTEND:20250424T113000
+SUMMARY:Settimana 8 - Giorno 4
+DESCRIPTION:Progetto finale - Refactoring, test, cargo fmt/clippy.\nEsercizi:\n1) Facile - Aggiungi un test unitario\n2) Medio - Esegui cargo fmt / cargo clippy e risolvi warning\n3) Avanzato - Test di integrazione in cartella tests/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rust-roadmap-20250425
+DTSTAMP:20250226T000000Z
+DTSTART:20250425T093000
+DTEND:20250425T113000
+SUMMARY:Settimana 8 - Giorno 5
+DESCRIPTION:Progetto finale - Conclusione e pubblicazione.\nEsercizi:\n1) Facile - Aggiorna README con istruzioni di build\n2) Medio - Aggiungi doc comments e genera cargo doc\n3) Avanzato - Crea release su GitHub/GitLab e CONTRIBUTING.md
+END:VEVENT
+
+END:VCALENDAR
+
