@@ -58,8 +58,8 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
 - [Week 1](#week-1): Install and configure Rust, Cargo, basic syntax, flow control, and functions  
   - [Day 1](#week-1---day-1): Getting started with Rust: installation, hello world, and Cargo  
   - [Day 2](#week-1---day-2): Variables, mutability, and data types  
-  - [Day 3](#week-1---day-3): A basic guess-the-number game
-  - [Day 4](#week-1---day-4): Functions, control flow  
+  - [Day 3](#week-1---day-3): Functions, control flow
+  - [Day 4](#week-1---day-4): A basic guess-the-number game
   - [Day 5](#week-1---day-5): Recap and exercises  
 
 - [Week 2](#week-2): Ownership, references, and borrowing  
@@ -109,6 +109,18 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
 
 **Topics**:
 
+- Functions (`fn`), parameters, return types.  
+- Control flow: `if`, `else if`, `else`, `match`, loops (`for`, `while`, `loop`).  
+
+**Goals**:
+
+- Write small, modular functions.  
+- Practice branching logic and looping constructs.
+
+### Week 1 - Day 4
+
+**Topics**:
+
 - Building a basic “guess the number” game (inspired by the example in *The Rust Book*).  
 - Using `std::io` for input, generating random numbers (via `rand` crate), basic control flow.  
 
@@ -116,18 +128,6 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
 
 - Practice reading user input and handling conversions (string → integer).  
 - Learn how to handle external crates via `Cargo.toml`.  
-
-### Week 1 - Day 4
-
-**Topics**:
-
-- Functions (`fn`), parameters, return types.  
-- Control flow: `if`, `else if`, `else`, `match`, loops (`for`, `while`, `loop`).  
-
-**Goals**:
-
-- Write small, modular functions.  
-- Practice branching logic and looping constructs.  
 
 ### Week 1 - Day 5
 
