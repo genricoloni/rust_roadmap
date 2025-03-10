@@ -50,6 +50,28 @@ DTSTART:20250303T093000
 
 I suggest you to modify dates and times according to your needs (e.g. prompting ChatGPT to modify dates and times with specifyc patterns for each day).
 
+### Setting up `rust-analizer` in VSCode
+
+For better organization, I choose to create a new crate for each day. The main drawback is that `rust-analizer` struggles to find `Cargo.toml` file if it is not in the root directory. In my opinion, the best solution is to modify the extension settings in VSCode. To do so, follow these steps:
+
+1. Serve the command `Preferences: Open Settings (UI)` in the command palette.
+2. Paste the following string in the search bar: `rust-analyzer: Linked Projects`
+3. Click on `Edit in settings.json` in the first result.
+4. Add an entry for each day, like this:
+
+```json
+  "rust-analyzer.linkedProjects": [
+        "week-1/day-3/exercises-day-3/Cargo.toml",
+        "week-1/day-4/exercises-day-4/Cargo.toml",
+
+  ]
+
+```
+
+Unfortunately, I didn't find a way to add multiple entries at once, and moreover the extension seems to not support wildcards.
+
+---
+
 ## Table of contents
 
 The *roadmap* is divided into weeks, and each week is divided into days.  
@@ -195,7 +217,7 @@ Ownership, references, and borrowing
 **Recap and Exercises**:  
 
 - Recap and insights on `match` case.
-- Practice exercises on borrowing, references, and slices. 
+- Practice exercises on borrowing, references, and slices.
 
 ---
 
