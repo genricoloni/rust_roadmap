@@ -63,7 +63,7 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
   - [Day 5](#week-1---day-5): Recap and exercises  
 
 - [Week 2](#week-2): Ownership, references, and borrowing  
-  - [Day 1](#week-2---day-1)  
+  - [Day 1](#week-2---day-1): Basics of ownership and borrowing
   - [Day 2](#week-2---day-2)  
   - [Day 3](#week-2---day-3)  
   - [Day 4](#week-2---day-4)  
@@ -147,36 +147,36 @@ Ownership, references, and borrowing
 **Topics**:
 
 - The ownership model: stack vs heap, moves, copying, dropping.  
-- Borrowing and references: `&T` vs `&mut T`.  
+- Basics concepts of `move`, `clone` and `copy`.
 
 **Goals**:
 
 - Understand the core of Rust’s memory safety.  
-- Learn how references prevent dangling pointers and data races.  
+- Learn differences between stack-allocated and heap-allocated data.
 
 ### Week 2 - Day 2
 
 **Topics**:
 
-- Slices (`&[T]`), string slices (`&str`).  
-- Function parameters by reference vs by value.  
+- Borrowing and references (`&`), mutable references (`&mut`).
+- Borrow checker, rules for borrowing.
 
 **Goals**:
 
-- Practice writing functions that operate on slices.  
-- Distinguish when to move data and when to borrow it.  
+- Practice borrowing data without moving it, without duplicating it.
+- Understand the rules of borrowing and how to avoid dangling references.
 
 ### Week 2 - Day 3
 
 **Topics**:
 
-- Lifetimes: why they exist, basic syntax (`<'a>`).  
-- Example functions that return references.  
+- Slices
+- Differences between *strings* and *string slices*.
 
 **Goals**:
 
-- Grasp the concept of lifetime annotations to ensure valid references.  
-- Write small examples comparing valid and invalid lifetime usage.  
+- Understand concepts behind slices.
+- How slice parameters work in functions.
 
 ### Week 2 - Day 4
 
@@ -194,8 +194,8 @@ Ownership, references, and borrowing
 
 **Recap and Exercises**:  
 
-- Implement a small “to-do list” that tests ownership, borrowing, references, and slices.  
-- Possibly write a mini interactive CLI to add/remove tasks.  
+- Recap and insights on `match` case.
+- Practice exercises on borrowing, references, and slices. 
 
 ---
 
