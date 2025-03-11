@@ -86,7 +86,7 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
 
 - [Week 2](#week-2): Ownership, references, and borrowing  
   - [Day 1](#week-2---day-1): Basics of ownership and borrowing
-  - [Day 2](#week-2---day-2)  
+  - [Day 2](#week-2---day-2): References and borrowing
   - [Day 3](#week-2---day-3)  
   - [Day 4](#week-2---day-4)  
   - [Day 5](#week-2---day-5)  
