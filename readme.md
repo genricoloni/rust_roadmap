@@ -87,8 +87,8 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
 - [Week 2](#week-2): Ownership, references, and borrowing  
   - [Day 1](#week-2---day-1): Basics of ownership and borrowing
   - [Day 2](#week-2---day-2): References and borrowing
-  - [Day 3](#week-2---day-3)  
-  - [Day 4](#week-2---day-4)  
+  - [Day 3](#week-2---day-3): String slices and slices
+  - [Day 4](#week-2---day-4): Lifetime annotation
   - [Day 5](#week-2---day-5)  
 
 - [Week 3](#week-3): Structs, enums, pattern matching (advanced)  
@@ -204,13 +204,13 @@ Ownership, references, and borrowing
 
 **Topics**:
 
-- More pattern matching with `match` (especially on slices and references).  
-- Combining ownership rules with pattern matching.  
+- Lifetime: introduction and motivation.
+- Lifetime elision rules.  
 
 **Goals**:
 
-- Become comfortable matching different data structures and references.  
-- Incorporate safe borrowing while destructuring values.  
+- Understand why references have to be valid for a certain lifetime.
+- Use lifetime annotations to specify the relationship between references.
 
 ### Week 2 - Day 5
 
