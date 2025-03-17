@@ -89,9 +89,15 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
   - [Day 2](#week-2---day-2): References and borrowing
   - [Day 3](#week-2---day-3): String slices and slices
   - [Day 4](#week-2---day-4): Lifetime annotation
-  - [Day 5](#week-2---day-5)  
+  - [Day 5](#week-2---day-5): Recap and exercises
 
-- [Week 3](#week-3): Structs, enums, pattern matching (advanced)  
+- [Week 3](#week-3): Structs, enums, pattern matching (advanced)
+  - [Day 1](#week-3---day-1): Defining and implementing `struct`s
+  - [Day 2](#week-3---day-2): Enumerations and pattern matching
+  - [Day 3](#week-3---day-3): Working with `Option` and `Result`
+  - [Day 4](#week-3---day-4): Advanced pattern matching
+  - [Day 5](#week-3---day-5): Recap and exercises  
+
 - [Week 4](#week-4): Generics, traits, and error handling  
 - [Week 5](#week-5): Collections, iterators, and closures  
 - [Week 6](#week-6): Concurrency: threads, channels, mutex  
@@ -225,11 +231,61 @@ Ownership, references, and borrowing
 
 Structs, enums, pattern matching (advanced)
 
-- **Day 1**: Defining `struct`s, implementing methods, deriving traits (like `Debug`).  
-- **Day 2**: Enumerations (`enum`), storing different data in variants, pattern matching on `enum`.  
-- **Day 3**: Working with `Option` and `Result`, error handling with `match`, `unwrap()`, `expect()`.  
-- **Day 4**: Advanced pattern matching: `if let`, `while let`, destructuring nested types.  
-- **Day 5**: Recap: build a small system (e.g., a booking manager) using `struct`s and `enum`s.  
+### Week 3 - Day 1
+
+**Topics**:
+
+- Defining `struct`s, implementing methods, deriving traits (like `Debug`).
+- Implementing methods for `struct`s.
+
+**Goals**:
+
+- Understand how to define custom data types.
+- Familiarize with traits and how to derive them.
+
+### Week 3 - Day 2
+
+**Topics**:
+
+- Enumerations (`enum`), differences between `struct` and `enum`.
+- Pattern matching on `enum`, variants, and associated data.
+
+**Goals**:
+
+- Learn how to store different data in variants.
+- Practice pattern matching on `enum`, handling different cases.
+
+### Week 3 - Day 3
+
+**Topics**:
+
+- Working with `Option` and `Result`.
+- Error handling with `match`, `unwrap()`, `expect()`.
+
+**Goals**:
+
+- Understand how to handle optional and error-prone values.
+- Combine borrowing/ownership with enums for error handling.
+
+### Week 3 - Day 4
+
+**Topics**:
+
+- Advanced pattern matching: `if let`, `while let`.
+- Pattern matching with advanced destructuring.
+
+**Goals**:
+
+- Practice more complex pattern matching scenarios.
+- Master the `match` syntax and its variations.
+
+### Week 3 - Day 5
+
+**Recap**:
+
+- Build a small system (e.g., a booking manager) using `struct`s and `enum`s.
+- Consolidate knowledge on `struct`s, `enum`s, and pattern matching.
+- Practice creating a small project from scratch.
 
 ---
 
