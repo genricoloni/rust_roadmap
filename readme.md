@@ -248,7 +248,7 @@ Structs, enums, pattern matching (advanced)
 **Topics**:
 
 - Enumerations (`enum`), differences between `struct` and `enum`.
-- Pattern matching on `enum`, variants, and associated data.
+- `Option` and `Result` enums, pattern matching on enums.
 
 **Goals**:
 
@@ -259,8 +259,8 @@ Structs, enums, pattern matching (advanced)
 
 **Topics**:
 
-- Working with `Option` and `Result`.
 - Error handling with `match`, `unwrap()`, `expect()`.
+- `panic!` and `Result` for error handling.
 
 **Goals**:
 
