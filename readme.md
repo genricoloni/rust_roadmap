@@ -297,8 +297,8 @@ Generics, traits, and error handling
 
 **Topics**:
 
-- Generics `<T>`, functions with generics, structs with generics.
-- Trait bounds: `impl<T>`, `where`, `PartialOrd`, `Copy`.
+- Generics `<T>`
+- Generics in functions, structs, enums.
 
 **Goals**:
 
