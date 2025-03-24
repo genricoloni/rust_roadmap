@@ -293,11 +293,65 @@ Structs, enums, pattern matching (advanced)
 
 Generics, traits, and error handling
 
-- **Day 1**: Generics (`<T>`) in functions, `impl<T>` blocks, partial ordering constraints (e.g., `PartialOrd`).  
-- **Day 2**: Traits: defining your own, implementing them for custom types, default methods.  
-- **Day 3**: Trait objects (`Box<dyn Trait>`), dynamic dispatch, building heterogeneous collections.  
-- **Day 4**: Advanced error handling, `Result`, the `?` operator, returning custom error types.  
-- **Day 5**: Recap: create or extend a small project that uses generics, custom traits, and proper error handling.  
+### Week 4 - Day 1
+
+**Topics**:
+
+- Generics `<T>`, functions with generics, structs with generics.
+- Trait bounds: `impl<T>`, `where`, `PartialOrd`, `Copy`.
+
+**Goals**:
+
+- Understand how to write functions and structs that work with any type.
+- Learn how to constrain generics with traits.
+
+### Week 4 - Day 2
+
+**Topics**:
+
+- Traits: definition, implementation.
+- Default implementations, trait inheritance.
+
+**Goals**:
+
+- Define custom traits and implement them for custom types.
+- Understand how to use default methods in traits.
+
+### Week 4 - Day 3
+
+**Topics**:
+
+- Trait objects: `Box<dyn Trait>`, dynamic dispatch.
+- Building heterogeneous collections with trait objects.
+
+**Goals**:
+
+- Learn how to use trait objects for dynamic dispatch.
+- Practice building collections of different types using trait objects.
+
+### Week 4 - Day 4
+
+**Topics**:
+
+- Advanced traits
+- Overriding default trait implementations, using supertraits.
+
+**Goals**:
+
+- Understand how to create more complex trait hierarchies.
+- Practice using traits to extend functionality.
+
+### Week 4 - Day 5
+
+**Topics**:
+
+- Advanced types
+- The `never` and `newtype` patterns, associated types.
+
+**Goals**:
+
+- Learn how to use advanced types to improve code clarity.
+- Practice creating or extending a small project that uses generics and custom traits.
 
 ---
 
