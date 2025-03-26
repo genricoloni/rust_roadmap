@@ -321,13 +321,14 @@ Generics, traits, and error handling
 
 **Topics**:
 
+- OOP in Rust: `impl Trait`, `dyn Trait`.
 - Trait objects: `Box<dyn Trait>`, dynamic dispatch.
-- Building heterogeneous collections with trait objects.
 
 **Goals**:
 
+- Understand how Rust implements object-oriented programming.
 - Learn how to use trait objects for dynamic dispatch.
-- Practice building collections of different types using trait objects.
+
 
 ### Week 4 - Day 4
 
