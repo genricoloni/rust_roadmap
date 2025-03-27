@@ -98,7 +98,12 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
   - [Day 4](#week-3---day-4): Advanced pattern matching
   - [Day 5](#week-3---day-5): Recap and exercises  
 
-- [Week 4](#week-4): Generics, traits, and error handling  
+- [Week 4](#week-4): Generics, traits, OOP
+  - [Day 1](#week-4---day-1): Generics
+  - [Day 2](#week-4---day-2): Traits
+  - [Day 3](#week-4---day-3): OOP in Rust
+  - [Day 4](#week-4---day-4): Smart pointers
+  - [Day 5](#week-4---day-5): Interior mutability
 - [Week 5](#week-5): Collections, iterators, and closures  
 - [Week 6](#week-6): Concurrency: threads, channels, mutex  
 - [Week 7](#week-7): Macros, unsafe, smart pointers, and advanced features  
@@ -329,30 +334,29 @@ Generics, traits, and error handling
 - Understand how Rust implements object-oriented programming.
 - Learn how to use trait objects for dynamic dispatch.
 
-
 ### Week 4 - Day 4
 
 **Topics**:
 
-- Advanced traits
-- Overriding default trait implementations, using supertraits.
+- Smart pointers
+- `Box<T>`, `Rc<T>`
 
 **Goals**:
 
-- Understand how to create more complex trait hierarchies.
-- Practice using traits to extend functionality.
+- Understand the differences between smart pointers and references.
+- Learn how to use smart pointers for shared ownership.
 
 ### Week 4 - Day 5
 
 **Topics**:
 
-- Advanced types
-- The `never` and `newtype` patterns, associated types.
+- Interior mutability
+- `RefCell<T>`, usage with `Rc<T>`
 
 **Goals**:
 
-- Learn how to use advanced types to improve code clarity.
-- Practice creating or extending a small project that uses generics and custom traits.
+- Understand how to mutate data inside an immutable reference.
+- Learn how to use `RefCell` for interior mutability.
 
 ---
 
