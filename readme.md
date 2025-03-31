@@ -104,7 +104,10 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
   - [Day 3](#week-4---day-3): OOP in Rust
   - [Day 4](#week-4---day-4): Smart pointers
   - [Day 5](#week-4---day-5): Interior mutability
-- [Week 5](#week-5): Collections, iterators, and closures  
+- [Week 5](#week-5): Collections, iterators, and closures
+  - [Day 1](#week-5---day-1): Core collections
+  - [Day 2](#week-5---day-2): `HashMap<K, V>`
+  - 
 - [Week 6](#week-6): Concurrency: threads, channels, mutex  
 - [Week 7](#week-7): Macros, unsafe, smart pointers, and advanced features  
 - [Week 8](#week-8): Final project and consolidation  
@@ -364,11 +367,60 @@ Generics, traits, and error handling
 
 Collections, iterators, and closures
 
-- **Day 1**: Core collections: `Vec<T>`, `String`, basic operations (push/pop, indexing, iteration).  
-- **Day 2**: `HashMap<K, V>`: insertion, removal, iteration, handling missing keys.  
-- **Day 3**: Iterators: `map()`, `filter()`, `fold()`. Differences between `iter()`, `iter_mut()`, `into_iter()`.  
-- **Day 4**: Closures: syntax, capturing variables, usage with iterators (e.g., `map(|x| x+1)`).  
-- **Day 5**: Recap: create a small data-processing tool that uses collections, iterators, closures.  
+### Week 5 - Day 1
+
+**Topics**:
+
+- Core collections: `Vec<T>`, `String`
+- Basic operations (push/pop, indexing, iteration).
+
+**Goals**:
+
+- Understand how to use vectors and strings.
+- Practice basic operations on collections.
+
+### Week 5 - Day 2
+
+**Topics**:
+
+- `HashMap<K, V>`
+- Key-value pairs, insertion, removal, iteration.
+
+**Goals**:
+
+- Learn how to use hash maps for key-value storage.
+- Deal with missing keys and handle errors.
+
+### Week 5 - Day 3
+
+**Topics**:
+
+- Iterators: `map()`, `filter()`, `fold()`.
+- Differences between `iter()`, `iter_mut()`, `into_iter()`.
+
+**Goals**:
+
+- Understand how to use iterators for data processing.
+- Learn the differences between iterator adaptors.
+
+### Week 5 - Day 4
+
+**Topics**:
+
+- Closures: syntax, capturing variables.
+- Usage with iterators (e.g., `map(|x| x+1)`).
+
+**Goals**:
+
+- Learn how to write closures in Rust.
+- Practice using closures with iterators.
+
+### Week 5 - Day 5
+
+**Recap**:
+
+- Create a small data-processing tool that uses collections, iterators, and closures.
+- Consolidate knowledge on collections, iterators, and closures.
 
 ---
 
