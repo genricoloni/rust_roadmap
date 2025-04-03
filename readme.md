@@ -97,7 +97,6 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
   - [Day 3](#week-3---day-3): Working with `Option` and `Result`
   - [Day 4](#week-3---day-4): Advanced pattern matching
   - [Day 5](#week-3---day-5): Recap and exercises  
-
 - [Week 4](#week-4): Generics, traits, OOP
   - [Day 1](#week-4---day-1): Generics
   - [Day 2](#week-4---day-2): Traits
@@ -107,7 +106,9 @@ I assume **no more than 2 hours** of study per day, for **5 days** a week.
 - [Week 5](#week-5): Collections, iterators, and closures
   - [Day 1](#week-5---day-1): Core collections
   - [Day 2](#week-5---day-2): `HashMap<K, V>`
-  - 
+  - [Day 3](#week-5---day-3): Functional programming in Rust
+  - [Day 4](#week-5---day-4): Iterators
+  - [Day 5](#week-5---day-5): Recap and exercises
 - [Week 6](#week-6): Concurrency: threads, channels, mutex  
 - [Week 7](#week-7): Macros, unsafe, smart pointers, and advanced features  
 - [Week 8](#week-8): Final project and consolidation  
@@ -414,7 +415,6 @@ Collections, iterators, and closures
 
 - Understand how to use iterators for data processing.
 - Learn the differences between iterator adaptors.
-
 
 ### Week 5 - Day 5
 
