@@ -395,6 +395,18 @@ Collections, iterators, and closures
 
 **Topics**:
 
+- Functional programming in Rust: closures.
+- Usage with iterators (e.g., `map(|x| x+1)`).
+
+**Goals**:
+
+- Learn how to write closures in Rust.
+- Practice using closures with iterators.
+
+### Week 5 - Day 4
+
+**Topics**:
+
 - Iterators: `map()`, `filter()`, `fold()`.
 - Differences between `iter()`, `iter_mut()`, `into_iter()`.
 
@@ -403,17 +415,6 @@ Collections, iterators, and closures
 - Understand how to use iterators for data processing.
 - Learn the differences between iterator adaptors.
 
-### Week 5 - Day 4
-
-**Topics**:
-
-- Closures: syntax, capturing variables.
-- Usage with iterators (e.g., `map(|x| x+1)`).
-
-**Goals**:
-
-- Learn how to write closures in Rust.
-- Practice using closures with iterators.
 
 ### Week 5 - Day 5
 
