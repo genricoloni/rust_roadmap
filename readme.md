@@ -429,11 +429,65 @@ Collections, iterators, and closures
 
 Concurrency
 
-- **Day 1**: Threads with `std::thread::spawn`, joining threads, basic concurrency overview.  
-- **Day 2**: Channels (`mpsc::channel`): sending and receiving messages, multiple producers.  
-- **Day 3**: Mutex, `Arc<Mutex<T>>` for shared state, avoiding data races.  
-- **Day 4**: More complex concurrency patterns (multiple consumers, chat-like scenarios, `RwLock`).  
-- **Day 5**: Recap: Producer-consumer demo with concurrency tools (channels, threads, mutex).  
+### Day 1
+
+**Topics**:
+
+- Threads with `std::thread::spawn`
+- Joining threads, basic concurrency overview.
+
+**Goals**:
+
+- Understand how to create and manage threads in Rust.
+- Learn how to join threads and handle thread safety.
+
+### Day 2
+
+**Topics**:
+
+- Channels (`mpsc::channel`)
+- Sending and receiving messages, multiple producers.
+
+**Goals**:
+
+- Understand how to use channels for communication between threads.
+- Handle multiple producers concurrently.
+
+### Day 3
+
+**Topics**:
+
+- Mutex
+- `Arc<Mutex<T>>` for thread-safe shared state.
+
+**Goals**:
+
+- Avoid Race Conditions with Mutex.
+- Requirements for secure concurrency in Rust.
+
+### Day 4
+
+**Topics**:
+
+- `Send` and `Sync` traits.
+- Rust's requirements for thread safety.
+
+**Goals**:
+
+- Understand how Rust guarantees memory safety.
+- Learn how to use `Send` and `Sync` traits for thread safety.
+
+### Day 5
+
+**Topics**:
+
+- `std::sync::RwLock`
+- Producer-consumer exercises.
+
+**Goals**:
+
+- Understand how to use `RwLock` for read-write locks.
+- Practice building a producer-consumer scenario with threads and channels.
 
 ---
 
